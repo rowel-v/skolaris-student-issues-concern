@@ -1,20 +1,18 @@
-import { Route, BrowserRouter, Routes } from 'react-router-dom'
-import './App.css'
-import Form from './pages/Form'
-import FormSuccess from './pages/FormSuccess'
+import { HashRouter as Router, Routes, Route, Form } from 'react-router-dom';
+import FormSuccess from './pages/FormSuccess';
 
 function App() {
-
   return (
-    <BrowserRouter basename="/skolaris-student-issues-concern">
-    <Routes>
-      <Route path="/entry-form" element={<Form />} />
-      <Route path="/submitted" element={<FormSuccess />}>
-      </Route>
-    </Routes>
-    </BrowserRouter>
+    /* HashRouter handles the /skolaris-student-issues-concern/ path automatically 
+       so you can remove the basename prop entirely. */
+    <Router>
+      <Routes>
+        <Route path="/" element={<Form />} />
+        <Route path="/entry-form" element={<Form />} />
+        <Route path="/submitted" element={<FormSuccess />} />
+      </Routes>
+    </Router>
   )
-
 }
 
-export default App
+export default App;

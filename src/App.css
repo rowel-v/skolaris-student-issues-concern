@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* This forces all dropdown options to be solid black and readable */
+select option {
+    color: #0f172a !important; /* slate-900 */
+    background-color: #ffffff !important;
+}
+
+/* Keeps the placeholder light */
+select option:disabled {
+    color: #9ca3af !important; /* gray-400 */
+}

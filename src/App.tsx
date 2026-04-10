@@ -1,5 +1,6 @@
-import { HashRouter as Router, Routes, Route, Form } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import FormSuccess from './pages/FormSuccess';
+import Form from './pages/Form';
 
 function App() {
   return (

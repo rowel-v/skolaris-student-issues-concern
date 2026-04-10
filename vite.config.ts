@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/skolaris-student-issues-concern/'
+  base: '/skolaris-student-issues-concern/',  
 })

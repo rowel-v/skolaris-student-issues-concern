@@ -62,7 +62,7 @@ function Form() {
             program,
             yearlevel,
             email,
-            concern: concern === "Other concern (Not listed above)" ? otherConcern : concern
+            concern: concern === "Other concern (Click here)" ? otherConcern : concern
         };
 
         try {
@@ -162,7 +162,7 @@ function Form() {
                                 options={CONCERN_OPTIONS}
                                 onChange={setConcern}
                             />
-                            {concern === "Other concern (Not listed above)" && (
+                            {concern === "Other concern (Click here)" && (
                                 <div className="w-full animate-in fade-in slide-in-from-top-1">
                                     <TextArea onChange={(x) => setOtherConcern(x)} placeholder="Please specify your concern..." />
                                 </div>

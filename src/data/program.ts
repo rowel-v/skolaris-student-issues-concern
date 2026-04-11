@@ -88,7 +88,7 @@ export const CONCERN_OPTIONS: CustomSelectOption[] = [
   { value: "Payment not reflected", label: "Payment not reflected" },
 
   { value: "h_misc", label: "", isHeader: true },
-  { value: "Other concern (Not listed above)", label: "Other concern (Not listed above)" },
+  { value: "Other concern (Click here)", label: "Other concern (Click here)" },
 ];
 
 export const YEARLEVEL_OPTIONS: Option[] = [

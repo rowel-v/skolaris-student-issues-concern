@@ -5,7 +5,7 @@ function Header() {
             {/* <div className="w-12 h-1 bg-blue-600 rounded-full mb-3" /> */}
 
             {/* Main Title - Font styling updated to match image */}
-             <p className="text-[35px] font-bold tracking-wide leading-none text-[#2563eb] font-sans">
+             <p className="text-[25px] font-bold tracking-wide leading-none text-[#2563eb] font-sans">
                 Issues  / Concerns
             </p> 
             

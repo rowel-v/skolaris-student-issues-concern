@@ -75,7 +75,7 @@ function CustomSelect({ value, onChange, options, placeholder }: CustomSelectPro
 
       {/* ─── Dropdown List (Opens Upwards) ─── */}
       {isOpen && (
-        <div className="absolute left-0 bottom-[calc(100%+8px)] w-full max-h-87.5 bg-white border border-slate-200 rounded-xl shadow-2xl z-[100] overflow-y-auto animate-in fade-in slide-in-from-bottom-2">
+        <div className="absolute left-0 bottom-[calc(100%+8px)] w-full max-h-87.5 bg-white border border-slate-200 rounded-xl shadow-2xl z-100 overflow-y-auto animate-in fade-in slide-in-from-bottom-2">
           {options.map((option, index) => {
             // Render Category Headers
             if (option.isHeader) {

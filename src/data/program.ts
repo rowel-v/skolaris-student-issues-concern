@@ -81,15 +81,28 @@ export const CONCERN_OPTIONS: CustomSelectOption[] = [
   { value: "h_records", label: "RECORDS & PROFILE", isHeader: true },
   { value: "Enrolled courses missing in ORF", label: "Enrolled courses missing in ORF" },
   { value: "Grade verification", label: "Grade verification" },
-  { value: "Profile information correction", label: "Profile information correction" },
-  { value: "Wrong campus selected", label: "Wrong campus selected" },
+  { value: "Wrong campus selected", label: "Wrong campus selected" },  
+  { value: "Email Change Request", label: "Email Change Request" },
+  { value: "Full Name Correction Request", label: "Full Name Correction Request" },
+  { value: "Year Level Correction Request", label: "Year Level Correction Request" },
 
   { value: "h_payment", label: "PAYMENT / FINANCE", isHeader: true },
   { value: "Payment not reflected", label: "Payment not reflected" },
+  { value: "On-Time Downpayment with Penalty Issue", label: "On-Time Downpayment with Penalty Issue" },
+  { value: "On-Time Installment with Penalty Issue", label: "On-Time Installment with Penalty Issue" },
+  { value: "Request for Mode of Payment Change (Full Payment to Installment)", label: "Request for Mode of Payment Change (Full Payment to Installment)" },
+  { value: "Request for Mode of Payment Change (Installment to Full Payment)", label: "Request for Mode of Payment Change (Installment to Full Payment)" },
 
   { value: "h_misc", label: "", isHeader: true },
   { value: "Other concern (Click here)", label: "Other concern (Click here)" },
 ];
+
+// On-Time Downpayment with Penalty Issue
+// On-Time Installment with Penalty Issue
+
+// Request for Mode of Payment Change (Full Payment to Installment)
+// Request for Mode of Payment Change (Installment to Full Payment)
+// Email Change Request
 
 export const YEARLEVEL_OPTIONS: Option[] = [
   { value: "1", label: "1st Year" },

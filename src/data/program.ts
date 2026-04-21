@@ -82,20 +82,20 @@ export const PROGRAM_OPTIONS = [
 // 2. UPDATE CONCERN_OPTIONS TO USE HEADERS
 export const CONCERN_OPTIONS: CustomSelectOption[] = [
   { value: "h_account", label: "ACCOUNT & ACCESS", isHeader: true },
-  { value: "Account deactivated", label: "Account deactivated" },
-  { value: "New Student account error", label: "Existing Student created New Student account" },
-  { value: "No record found", label: "Existing Student no record found" },
-  { value: "Forgot password", label: "Forgot password" },
+  { value: "Account Deactivated", label: "Account Deactivated" },
+  { value: "Existing Student created New Student account", label: "Existing Student created New Student account" },
+  { value: '“No Record Found" – Existing Student', label: '“No Record Found" – Existing Student ' },
+  { value: "Forgot password – no email", label: "Forgot password – no email" },
 
   { value: "h_registration", label: "REGISTRATION & ENROLLMENT", isHeader: true },
-  { value: "Adding/Dropping course", label: "Adding/Dropping course" },
-  { value: "Cannot enroll course (Prerequisite not met)", label: "Cannot enroll course (Prerequisite not met)" },
+  { value: "Adding / Dropping course (subject)", label: "Adding / Dropping course (subject)" },
+  { value: "Cannot enroll course (subject) – Prerequisite not met", label: "Cannot enroll course (subject) – Prerequisite not met" },
   { value: "Change of section request", label: "Change of section request" },
   { value: "Class schedule conflict (Adding course)", label: "Class schedule conflict (Adding course)" },
+  { value: "Enrolled courses missing in ORF", label: "Enrolled courses missing in ORF" },
   { value: "No course offerings for program", label: "No course offerings for program" },
 
   { value: "h_records", label: "RECORDS & PROFILE", isHeader: true },
-  { value: "Enrolled courses missing in ORF", label: "Enrolled courses missing in ORF" },
   { value: "Grade verification", label: "Grade verification" },
   { value: "Wrong campus selected", label: "Wrong campus selected" },
   { value: "Email Change Request", label: "Email Change Request" },
@@ -104,11 +104,9 @@ export const CONCERN_OPTIONS: CustomSelectOption[] = [
 
   { value: "h_payment", label: "PAYMENT / FINANCE", isHeader: true },
   { value: "Payment not reflected", label: "Payment not reflected" },
-  { value: "On-Time Downpayment with Penalty Issue", label: "On-Time Downpayment with Penalty Issue" },
-  { value: "On-Time Installment with Penalty Issue", label: "On-Time Installment with Penalty Issue" },
-  { value: "Request for Mode of Payment Change (Full Payment to Installment)", label: "Request for Mode of Payment Change (Full Payment to Installment)" },
-  { value: "Request for Mode of Payment Change (Installment to Full Payment)", label: "Request for Mode of Payment Change (Installment to Full Payment)" },
-
+  { value: "On-Time Downpayment – but with Penalty Issue", label: "On-Time Downpayment – but with Penalty Issue" },
+  { value: "On-Time Installment – but with Penalty Issue", label: "On-Time Installment – but with Penalty Issue" },
+  
   { value: "h_misc", label: "", isHeader: true },
   { value: "Other concern (Click here)", label: "Other concern (Click here)" },
 ];

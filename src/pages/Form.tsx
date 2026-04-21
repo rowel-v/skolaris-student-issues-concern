@@ -41,7 +41,7 @@ function Form() {
     const CAMPUSES = Object.keys(CAMPUS_APIS);
 
     const handleSubmit = async () => {
-        if (!campus || !studentIdNumber || !surname || !firstname || !email || !program || !concern) {
+        if (!campus || !studentIdNumber || !surname || !firstname || !email || !program || !concern || !birthdate) {
             alert("Please fill in all required fields.");
             return;
         }
